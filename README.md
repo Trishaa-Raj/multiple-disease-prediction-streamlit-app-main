@@ -102,28 +102,6 @@ The saved `.sav` files are loaded at app startup using `@st.cache_resource` so t
 
 ---
 
-## 🚀 How to Run Locally
-
-**Step 1: Clone the repository**
-```bash
-git clone https://github.com/your-username/multiple-disease-prediction-streamlit-app.git
-cd multiple-disease-prediction-streamlit-app
-```
-
-**Step 2: Install dependencies**
-```bash
-pip install -r requirements.txt
-```
-
-**Step 3: Run the app**
-```bash
-streamlit run app.py
-```
-
-The app will open in your browser at `http://localhost:8501`
-
----
-
 ## 📦 Requirements
 
 ```
