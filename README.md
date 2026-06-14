@@ -102,19 +102,6 @@ The saved `.sav` files are loaded at app startup using `@st.cache_resource` so t
 
 ---
 
-## 📦 Requirements
-
-```
-numpy==1.26.3
-scikit-learn==1.3.2
-streamlit==1.29.0
-streamlit-option-menu==0.3.6
-```
-
-> **Note:** Additional libraries (pandas, matplotlib, etc.) may be needed to re-run the Jupyter training notebooks.
-
----
-
 ## 📊 Datasets
 
 | Disease | Source | Samples | Features |
@@ -124,13 +111,6 @@ streamlit-option-menu==0.3.6
 | Parkinson's | UCI Parkinson's Dataset (voice recordings) | 195 | 22 |
 
 All datasets are included in the `dataset/` folder.
-
----
-
-## 🔮 How to Retrain the Models
-
-Open the notebooks inside `colab_files_to_train_models/` in Google Colab or Jupyter. Each notebook is self-contained — it loads the dataset, trains the model, and saves the `.sav` file. Replace the corresponding file in `saved_models/` with the newly generated one and restart the app.
-
 ---
 
 ## 🙋 Who Is This For?
